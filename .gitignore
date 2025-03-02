@@ -1,0 +1,17 @@
+# Ignore all node_modules folders in any subdirectory
+**/node_modules
+
+# Ignore package-lock.json in all subdirectories
+**/package-lock.json
+
+# Ignore .env files (if using environment variables)
+**/.env
+
+# Ignore build artifacts
+**/dist
+**/build
+
+# Ignore IDE-specific files
+**/.vscode
+**/.idea
+**/*.log
