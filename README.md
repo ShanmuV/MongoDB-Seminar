@@ -14,7 +14,6 @@ _Available on [github.com/ShanmuV/MongoDB-Seminar](https://github.com/ShanmuV/Mo
 
 - Database Connection using Mongodb driver
 - CRUD Operations using Mongodb driver
-
 - Database Connection using Mongoose
 - CRUD Operations with Mongoose
 
