@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body,
+      .container {
+        margin: 0px;
+        padding: 0px;
+        height: 100dvh;
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .form-box {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 5%;
+      }
+
+      input[type="submit"] {
+        min-width: 50px;
+        min-height: 30px;
+        background-color: rgb(94, 94, 94);
+        color: white;
+        border: none;
+        border-radius: 10px;
+      }
+
+      input[type="text"] {
+        min-height: 25px;
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: transparent;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-box" method="POST" action="/submit">
+        <h3>INSERT NEW DATA</h3>
+        <input type="text" name="name" id="username" placeholder="Username" />
+        <input type="text" name="pass" id="password" placeholder="Password" />
+        <input type="submit" value="Enter" />
+      </form>
+    </div>
+  </body>
+</html>
